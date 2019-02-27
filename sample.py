@@ -1,7 +1,4 @@
-c=int(input())
-if(c>0):
-  print("Positive")
-elif(c<0:
-  print("Negative")
-else:
-  print("Zero")
+import roman;
+c=input()
+n=roman.fromRoman(c)
+print(n)
